@@ -5,7 +5,7 @@ html, body {
 
 body {
   margin:0;
-  background: url(images/background-img.jpg);
+  background: url(/Users/mischkabooley/Development/code/phase-0/personalweb-repo/images/background-img.jpg);
   background-size: cover;
   font-family:"Roboto", serif;
   color: white;
