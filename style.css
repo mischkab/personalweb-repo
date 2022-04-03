@@ -7,7 +7,16 @@ body {
   margin:0;
   background: url(images/background-img.jpg);
   background-size: cover;
+  font-family:"Roboto", serif;
+  color: white;
 }
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 40px;
+}
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -38,4 +47,86 @@ a {
 
 .active {
   background-color: #7e7e7e;
+}
+
+#content {
+  padding: 20px;
+  background: rgba(255,255,255,.85);
+  color: #111;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+#message, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #7a7a7a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea {
+  font-family:"Roboto", serif;
+}
+
+
+input[type=submit]:hover {
+  background-color: #363636;
 }
